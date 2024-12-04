@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecofunding</title>
+    <link rel="stylesheet" href="./assets/css/inve.css">
+    <link rel="stylesheet" href="./assets/css/signup.css">
+</head>
+<body class="body">
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-link" href="./index-projetista.html"><img class="logo" src="./assets/images/logo.png" alt=""></a>
+            <button class="sair cabecalho-menu" onclick="sair()">Sair</button>
+        </nav>
+    </header>
+            <div class="container">
+                <div class="card">
+                  <h1>Buscar relatório</h1>
+                  <p class="paragrafo">Para buscar relatórios, basta informar o nome do projeto que deseja analisar</p>
+          
+                  <div id="msgError"></div>
+                  <div id="msgSuccess"></div>
+          
+                  <div class="label-float">
+                    <input type="text" id="projeto" placeholder=" " required />
+                    <label id="labelProjeto" for="nome">Nome do projeto</label>
+                  </div>
+
+                  <p class="paragrafo2">As informações abaixo serão disponibilizadas assim que informar o nome do projeto</p>
+          
+                  <div class="label-float">
+                    <input type="text" id="emailPro" placeholder=" " required />
+                    <label id="labelEmailPro" for="usuario">E-mail do projetista</label>
+                  </div>
+          
+                  <div class="label-float">
+                    <input type="text" id="emailInv" placeholder=" " required />
+                    <label id="labelEmailInv" for="senha">E-mail do investidor</label>
+                    <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                  </div>
+          
+                  <div class="label-float">
+                    <input type="text" id="descricao" placeholder=" " required />
+                    <label id="labelDescricao" for="nome">Descrição do relatório</label>
+                  </div>
+          
+                  <div class="justify-center">
+                    <button onclick="buscar()">Buscar relatório</button>
+                  </div>
+                </div>
+              </div>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/relatorio.js"></script>
+</body>
+</html>
