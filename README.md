@@ -16,10 +16,11 @@ COMO UTILIZAR A PLATAFORMA
 
 1 - Assim que entrar no site, você deve realizar um cadastro para o projetista e um cadastro para o investidor
   
-    1.1 - Não é possível realizar o cadastro sem preencher algum campo. Atente-se se todos os campos foram preenchidos corretamente
-2 - Assim que realizar o cadastro, você será redirecionado para a página de login, podendo logar com as informações que inseriu no cadastro
+2 - Não é possível realizar o cadastro sem preencher algum campo. Atente-se se todos os campos foram preenchidos corretamente
+
+3 - Assim que realizar o cadastro, você será redirecionado para a página de login, podendo logar com as informações que inseriu no cadastro
   
-    2.1 - Cada usuário possui o seu próprio login, não sendo possível logar na página do projetista com o login do investidor e vice-versa
+4 - Cada usuário possui o seu próprio login, não sendo possível logar na página do projetista com o login do investidor e vice-versa
 
 PÁGINA DO PROJETISTA
 
